@@ -1,0 +1,141 @@
+# TiDB Documentation Categories
+
+This document organizes TiDB's documentation into logical categories to help users find relevant information more easily. Each document is categorized based on its primary purpose and linked to its source file.
+
+### Getting Started
+- [./basic-features.md](TiDB Features)
+- [./explore-htap.md](Explore HTAP)
+- [./glossary.md](Glossary)
+- [./import-example-data.md](Import Example Database)
+- [./mysql-compatibility.md](MySQL Compatibility)
+- [./overview.md](What is TiDB Self-Managed)
+- [./quick-start-with-htap.md](Quick Start with TiDB HTAP)
+- [./quick-start-with-tidb.md](Quick Start with TiDB Self-Managed)
+- [./tidb-architecture.md](TiDB Architecture)
+- [./tidb-limitations.md](TiDB Limitations)
+- [./tidb-roadmap.md](TiDB Roadmap)
+
+### Deployment & Operations
+- [./binary-package.md](TiDB Installation Packages)
+- [./check-before-deployment.md](TiDB Environment and System Configuration Check)
+- [./daily-check.md](Daily Check)
+- [./deploy-monitoring-services.md](Deploy Monitoring Services for the TiDB Cluster)
+- [./geo-distributed-deployment-topology.md](Geo-distributed Deployment topology)
+- [./hardware-and-software-requirements.md](TiDB Software and Hardware Requirements)
+- [./hybrid-deployment-topology.md](Hybrid Deployment Topology)
+- [./maintain-tidb-using-tiup.md](TiUP Common Operations)
+- [./minimal-deployment-topology.md](Minimal Deployment Topology)
+- [./pd-microservices-deployment-topology.md](PD Microservice Deployment Topology)
+- [./post-installation-check.md](Check Cluster Status)
+- [./production-deployment-using-tiup.md](Deploy a TiDB Cluster Using TiUP)
+- [./scale-tidb-using-tiup.md](Scale a TiDB Cluster Using TiUP)
+- [./smooth-upgrade-tidb.md](TiDB Smooth Upgrade)
+- [./tidb-in-kubernetes.md](Deploy a TiDB Cluster on Kubernetes)
+- [./upgrade-tidb-using-tiup.md](Upgrade TiDB Using TiUP)
+
+### Security
+- [./best-practices-for-security-configuration.md](Best Practices for TiDB Security Configuration)
+- [./certificate-authentication.md](Certificate-Based Authentication for Login)
+- [./enable-tls-between-clients-and-servers.md](Enable TLS Between TiDB Clients and Servers)
+- [./enable-tls-between-components.md](Enable TLS Between TiDB Components)
+- [./encryption-at-rest.md](Encryption at Rest)
+- [./generate-self-signed-certificates.md](Generate Self-signed Certificates)
+- [./log-redaction.md](Log Redaction)
+- [./password-management.md](TiDB Password Management)
+- [./privilege-management.md](Privilege Management)
+- [./role-based-access-control.md](Role-Based Access Control)
+- [./security-compatibility-with-mysql.md](Security Compatibility with MySQL)
+- [./user-account-management.md](TiDB User Account Management)
+
+### Data Types and SQL
+- [./character-set-and-collation.md](Character Set and Collation)
+- [./data-type-date-and-time.md](Date and Time Types)
+- [./data-type-json.md](TiDB Data Type)
+- [./data-type-numeric.md](Numeric Types)
+- [./data-type-overview.md](Data Types)
+- [./data-type-string.md](String types)
+- [./expression-syntax.md](Expression Syntax)
+- [./keywords.md](Keywords)
+- [./literal-values.md](Literal Values)
+- [./schema-object-names.md](Schema Object Names)
+- [./sql-mode.md](SQL Mode)
+
+### Features and Functionality
+- [./auto-increment.md](AUTO_INCREMENT)
+- [./auto-random.md](AUTO_RANDOM)
+- [./cached-tables.md](Cached Tables)
+- [./clustered-indexes.md](Clustered Indexes)
+- [./constraints.md](Constraints)
+- [./foreign-key.md](FOREIGN KEY Constraints)
+- [./generated-columns.md](Generated Columns)
+- [./partitioned-table.md](Partitioning)
+- [./temporary-tables.md](Temporary Tables)
+- [./time-to-live.md](Periodically Delete Data Using TTL (Time to Live))
+- [./views.md](Views)
+
+### Transaction Management
+- [./metadata-lock.md](Metadata Lock)
+- [./optimistic-transaction.md](TiDB Optimistic Transaction Model)
+- [./pessimistic-transaction.md](TiDB Pessimistic Transaction Mode)
+- [./transaction-isolation-levels.md](TiDB Transaction Isolation Levels)
+- [./transaction-overview.md](Transactions)
+
+### Query Performance & Optimization
+- [./choose-index.md](Index Selection)
+- [./control-execution-plan.md](Control Execution Plan)
+- [./cost-model.md](Cost Model)
+- [./explain-overview.md](TiDB Query Execution Plan Overview)
+- [./optimizer-hints.md](Optimizer Hints)
+- [./performance-tuning-methods.md](Performance Analysis and Tuning)
+- [./performance-tuning-overview.md](Performance Tuning Overview)
+- [./sql-logical-optimization.md](SQL Logical Optimization)
+- [./sql-optimization-concepts.md](SQL Optimization Process)
+- [./sql-physical-optimization.md](SQL Physical Optimization)
+- [./sql-plan-management.md](SQL Plan Management (SPM))
+- [./sql-tuning-overview.md](SQL Tuning Overview)
+- [./statistics.md](Introduction to Statistics)
+
+### Monitoring & Troubleshooting
+- [./alert-rules.md](TiDB Cluster Alert Rules)
+- [./analyze-slow-queries.md](Analyze Slow Queries)
+- [./error-codes.md](Error Codes and Troubleshooting)
+- [./grafana-overview-dashboard.md](Key Metrics)
+- [./identify-slow-queries.md](Identify Slow Queries)
+- [./tidb-monitoring-framework.md](TiDB Monitoring Framework Overview)
+- [./tidb-troubleshooting-map.md](TiDB Troubleshooting Map)
+- [./troubleshoot-cpu-issues.md](Troubleshoot Increased Read and Write Latency)
+- [./troubleshoot-hot-spot-issues.md](Troubleshoot Hotspot Issues)
+- [./troubleshoot-tidb-cluster.md](TiDB Cluster Troubleshooting Guide)
+
+### Data Migration & Integration
+- [./migration-overview.md](Data Migration Overview)
+- [./migration-tools.md](TiDB Migration Tools Overview)
+- [./migrate-from-mysql-to-tidb.md](Migrate Data from MySQL to TiDB)
+- [./migrate-from-aurora-to-tidb.md](Migrate Data from Amazon Aurora to TiDB)
+- [./migrate-from-tidb-to-tidb.md](Migrate from one TiDB cluster to another TiDB cluster)
+- [./replicate-data-to-kafka.md](Integrate Data with Apache Kafka and Apache Flink)
+
+### Vector Search
+- [./vector-search-data-types.md](Vector Data Types)
+- [./vector-search-functions-and-operators.md](Vector Functions and Operators)
+- [./vector-search-index.md](Vector Search Index)
+- [./vector-search-overview.md](Vector Search Overview)
+- [./vector-search-limitations.md](Vector Search Limitations)
+
+### Advanced Features
+- [./tidb-distributed-execution-framework.md](TiDB Distributed eXecution Framework (DXF))
+- [./tidb-resource-control.md](Use Resource Control to Achieve Resource Isolation)
+- [./tidb-storage.md](TiDB Storage)
+- [./tidb-computing.md](TiDB Computing)
+- [./tidb-scheduling.md](TiDB Scheduling)
+- [./tso.md](TimeStamp Oracle (TSO) in TiDB)
+
+### Configuration & Tuning
+- [./pd-configuration-file.md](PD Configuration File)
+- [./tidb-configuration-file.md](TiDB Configuration File)
+- [./tikv-configuration-file.md](TiKV Configuration File)
+- [./system-variables.md](System Variables)
+- [./status-variables.md](Server Status Variables)
+- [./dynamic-config.md](Modify Configuration Dynamically)
+- [./tune-operating-system.md](Tune Operating System Performance)
+- [./tune-tikv-memory-performance.md](Tune TiKV Memory Parameter Performance) 

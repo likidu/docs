@@ -1,0 +1,264 @@
+filepath,filename,title
+./accelerated-table-creation.md,accelerated-table-creation.md,TiDB Accelerated Table Creation
+./agg-distinct-optimization.md,agg-distinct-optimization.md,Distinct Optimization
+./alert-rules.md,alert-rules.md,TiDB Cluster Alert Rules
+./analyze-slow-queries.md,analyze-slow-queries.md,Analyze Slow Queries
+./as-of-timestamp.md,as-of-timestamp.md,Read Historical Data Using the `AS OF TIMESTAMP` Clause
+./auto-increment.md,auto-increment.md,AUTO_INCREMENT
+./auto-random.md,auto-random.md,AUTO_RANDOM
+./backup-and-restore-using-dumpling-lightning.md,backup-and-restore-using-dumpling-lightning.md,Back up and Restore Data Using Dumpling and TiDB Lightning
+./basic-features.md,basic-features.md,TiDB Features
+./basic-sql-operations.md,basic-sql-operations.md,Explore SQL with TiDB
+./best-practices-for-security-configuration.md,best-practices-for-security-configuration.md,Best Practices for TiDB Security Configuration
+./best-practices-on-public-cloud.md,best-practices-on-public-cloud.md,TiDB Best Practices on Public Cloud
+./binary-package.md,binary-package.md,TiDB Installation Packages
+./blocklist-control-plan.md,blocklist-control-plan.md,The Blocklist of Optimization Rules and Expression Pushdown
+./cached-tables.md,cached-tables.md,Cached Tables
+./certificate-authentication.md,certificate-authentication.md,Certificate-Based Authentication for Login
+./character-set-and-collation.md,character-set-and-collation.md,Character Set and Collation
+./character-set-gbk.md,character-set-gbk.md,GBK
+./check-before-deployment.md,check-before-deployment.md,TiDB Environment and System Configuration Check
+./choose-index.md,choose-index.md,Index Selection
+./clustered-indexes.md,clustered-indexes.md,Clustered Indexes
+./column-pruning.md,column-pruning.md,Column Pruning
+./command-line-flags-for-pd-configuration.md,command-line-flags-for-pd-configuration.md,PD Configuration Flags
+./command-line-flags-for-scheduling-configuration.md,command-line-flags-for-scheduling-configuration.md,Scheduling Configuration Flags
+./command-line-flags-for-tidb-configuration.md,command-line-flags-for-tidb-configuration.md,Configuration Options
+./command-line-flags-for-tikv-configuration.md,command-line-flags-for-tikv-configuration.md,TiKV Configuration Flags
+./command-line-flags-for-tso-configuration.md,command-line-flags-for-tso-configuration.md,TSO Configuration Flags
+./comment-syntax.md,comment-syntax.md,Comment Syntax
+./configure-load-base-split.md,configure-load-base-split.md,Load Base Split
+./configure-memory-usage.md,configure-memory-usage.md,TiDB Memory Control
+./configure-placement-rules.md,configure-placement-rules.md,Placement Rules
+./configure-store-limit.md,configure-store-limit.md,Store Limit
+./configure-time-zone.md,configure-time-zone.md,Time Zone Support
+./constraints.md,constraints.md,Constraints
+./control-execution-plan.md,control-execution-plan.md,Control Execution Plan
+./coprocessor-cache.md,coprocessor-cache.md,Coprocessor Cache
+./correlated-subquery-optimization.md,correlated-subquery-optimization.md,Decorrelation of Correlated Subquery
+./cost-model.md,cost-model.md,Cost Model
+./daily-check.md,daily-check.md,Daily Check
+./data-type-date-and-time.md,data-type-date-and-time.md,Date and Time Types
+./data-type-default-values.md,data-type-default-values.md,TiDB Data Type
+./data-type-json.md,data-type-json.md,TiDB Data Type
+./data-type-numeric.md,data-type-numeric.md,Numeric Types
+./data-type-overview.md,data-type-overview.md,Data Types
+./data-type-string.md,data-type-string.md,String types
+./ddl-introduction.md,ddl-introduction.md,Execution Principles and Best Practices of DDL Statements
+./deploy-monitoring-services.md,deploy-monitoring-services.md,Deploy Monitoring Services for the TiDB Cluster
+./derive-topn-from-window.md,derive-topn-from-window.md,Derive TopN or Limit from Window Functions
+./download-ecosystem-tools.md,download-ecosystem-tools.md,Download TiDB Tools
+./dr-backup-restore.md,dr-backup-restore.md,DR Solution Based on BR
+./dr-multi-replica.md,dr-multi-replica.md,DR Solution Based on Multiple Replicas in a Single Cluster
+./dr-secondary-cluster.md,dr-secondary-cluster.md,DR Solution Based on Primary and Secondary Clusters
+./dr-solution-introduction.md,dr-solution-introduction.md,Overview of TiDB Disaster Recovery Solutions
+./dumpling-overview.md,dumpling-overview.md,Dumpling Overview
+./dynamic-config.md,dynamic-config.md,Modify Configuration Dynamically
+./ecosystem-tool-user-case.md,ecosystem-tool-user-case.md,TiDB Tools Use Cases
+./ecosystem-tool-user-guide.md,ecosystem-tool-user-guide.md,TiDB Tools Overview
+./enable-disk-spill-encrypt.md,enable-disk-spill-encrypt.md,Enable Encryption for Disk Spill
+./enable-tls-between-clients-and-servers.md,enable-tls-between-clients-and-servers.md,Enable TLS Between TiDB Clients and Servers
+./enable-tls-between-components.md,enable-tls-between-components.md,Enable TLS Between TiDB Components
+./encryption-at-rest.md,encryption-at-rest.md,Encryption at Rest
+./error-codes.md,error-codes.md,Error Codes and Troubleshooting
+./explain-aggregation.md,explain-aggregation.md,Explain Statements That Use Aggregation
+./explain-indexes.md,explain-indexes.md,Explain Statements That Use Indexes
+./explain-index-merge.md,explain-index-merge.md,Explain Statements Using Index Merge
+./explain-joins.md,explain-joins.md,Explain Statements That Use Joins
+./explain-mpp.md,explain-mpp.md,Explain Statements in the MPP Mode
+./explain-overview.md,explain-overview.md,TiDB Query Execution Plan Overview
+./explain-partitions.md,explain-partitions.md,Explain Statements Using Partitions
+./explain-subqueries.md,explain-subqueries.md,Explain Statements That Use Subqueries
+./explain-views.md,explain-views.md,EXPLAIN Statements Using Views
+./explain-walkthrough.md,explain-walkthrough.md,EXPLAIN Walkthrough
+./explore-htap.md,explore-htap.md,Explore HTAP
+./expression-syntax.md,expression-syntax.md,Expression Syntax
+./extended-statistics.md,extended-statistics.md,Introduction to Extended Statistics
+./external-storage-uri.md,external-storage-uri.md,URI Formats of External Storage Services
+./exporting-grafana-snapshots.md,exporting-grafana-snapshots.md,Export Grafana Snapshots
+./filter-binlog-event.md,filter-binlog-event.md,Filter Binlog Events
+./filter-dml-event.md,filter-dml-event.md,Filter DML Events Using SQL Expressions
+./follower-read.md,follower-read.md,Follower Read
+./foreign-key.md,foreign-key.md,FOREIGN KEY Constraints
+./garbage-collection-configuration.md,garbage-collection-configuration.md,Garbage Collection Configuration
+./garbage-collection-overview.md,garbage-collection-overview.md,GC Overview
+./generate-self-signed-certificates.md,generate-self-signed-certificates.md,Generate Self-signed Certificates
+./generated-columns.md,generated-columns.md,Generated Columns
+./geo-distributed-deployment-topology.md,geo-distributed-deployment-topology.md,Geo-distributed Deployment topology
+./get-started-with-tidb-lightning.md,get-started-with-tidb-lightning.md,Quick Start for TiDB Lightning
+./glossary.md,glossary.md,Glossary
+./grafana-overview-dashboard.md,grafana-overview-dashboard.md,Key Metrics
+./grafana-pd-dashboard.md,grafana-pd-dashboard.md,Key Monitoring Metrics of PD
+./grafana-performance-overview-dashboard.md,grafana-performance-overview-dashboard.md,Key Metrics on Performance Overview
+./grafana-resource-control-dashboard.md,grafana-resource-control-dashboard.md,Key Monitoring Metrics of Resource Control
+./grafana-tidb-dashboard.md,grafana-tidb-dashboard.md,TiDB Monitoring Metrics
+./grafana-tikv-dashboard.md,grafana-tikv-dashboard.md,Key Monitoring Metrics of TiKV
+./hardware-and-software-requirements.md,hardware-and-software-requirements.md,TiDB Software and Hardware Requirements
+./hybrid-deployment-topology.md,hybrid-deployment-topology.md,Hybrid Deployment Topology
+./identify-expensive-queries.md,identify-expensive-queries.md,Identify Expensive Queries
+./identify-slow-queries.md,identify-slow-queries.md,Identify Slow Queries
+./import-example-data.md,import-example-data.md,Import Example Database
+./integration-overview.md,integration-overview.md,Data Integration Overview
+./join-reorder.md,join-reorder.md,Introduction to Join Reorder
+./keywords.md,keywords.md,Keywords
+./latency-breakdown.md,latency-breakdown.md,Latency Breakdown
+./literal-values.md,literal-values.md,Literal Values
+./log-redaction.md,log-redaction.md,Log Redaction
+./maintain-tidb-using-tiup.md,maintain-tidb-using-tiup.md,TiUP Common Operations
+./max-min-eliminate.md,max-min-eliminate.md,Eliminate Max/Min
+./metadata-lock.md,metadata-lock.md,Metadata Lock
+./metrics-schema.md,metrics-schema.md,Metrics Schema
+./migrate-aurora-to-tidb.md,migrate-aurora-to-tidb.md,Migrate Data from Amazon Aurora to TiDB
+./migrate-from-csv-files-to-tidb.md,migrate-from-csv-files-to-tidb.md,Migrate Data from CSV Files to TiDB
+./migrate-from-mariadb.md,migrate-from-mariadb.md,Migrate Data from MariaDB to TiDB
+./migrate-from-parquet-files-to-tidb.md,migrate-from-parquet-files-to-tidb.md,Migrate Data from Parquet Files to TiDB
+./migrate-from-sql-files-to-tidb.md,migrate-from-sql-files-to-tidb.md,Migrate Data from SQL Files to TiDB
+./migrate-from-tidb-to-mysql.md,migrate-from-tidb-to-mysql.md,Migrate Data from TiDB to MySQL-compatible Databases
+./migrate-from-tidb-to-tidb.md,migrate-from-tidb-to-tidb.md,Migrate from one TiDB cluster to another TiDB cluster
+./migrate-from-vitess.md,migrate-from-vitess.md,Migrate Data from Vitess to TiDB
+./migrate-large-mysql-shards-to-tidb.md,migrate-large-mysql-shards-to-tidb.md,Migrate and Merge MySQL Shards of Large Datasets to TiDB
+./migrate-large-mysql-to-tidb.md,migrate-large-mysql-to-tidb.md,Migrate Large Datasets from MySQL to TiDB
+./migrate-small-mysql-shards-to-tidb.md,migrate-small-mysql-shards-to-tidb.md,Migrate and Merge MySQL Shards of Small Datasets to TiDB
+./migrate-small-mysql-to-tidb.md,migrate-small-mysql-to-tidb.md,Migrate Small Datasets from MySQL to TiDB
+./migrate-with-more-columns-downstream.md,migrate-with-more-columns-downstream.md,Migrate Data to a Downstream TiDB Table with More Columns
+./migrate-with-pt-ghost.md,migrate-with-pt-ghost.md,Continuous Replication from Databases that Use gh-ost or pt-osc
+./migration-overview.md,migration-overview.md,Data Migration Overview
+./migration-tools.md,migration-tools.md,TiDB Migration Tools Overview
+./minimal-deployment-topology.md,minimal-deployment-topology.md,Minimal Deployment Topology
+./multi-data-centers-in-one-city-deployment.md,multi-data-centers-in-one-city-deployment.md,Multiple Availability Zones in One Region Deployment
+./mysql-compatibility.md,mysql-compatibility.md,MySQL Compatibility
+./non-transactional-dml.md,non-transactional-dml.md,Non-Transactional DML Statements
+./online-unsafe-recovery.md,online-unsafe-recovery.md,Online Unsafe Recovery
+./optimistic-transaction.md,optimistic-transaction.md,TiDB Optimistic Transaction Model
+./optimizer-fix-controls.md,optimizer-fix-controls.md,Optimizer Fix Controls
+./optimizer-hints.md,optimizer-hints.md,Optimizer Hints
+./oracle-functions-to-tidb.md,oracle-functions-to-tidb.md,Comparisons between Functions and Syntax of Oracle and TiDB
+./overview.md,overview.md,What is TiDB Self-Managed
+./partition-pruning.md,partition-pruning.md,Partition Pruning
+./partitioned-raft-kv.md,partitioned-raft-kv.md,Partitioned Raft KV
+./partitioned-table.md,partitioned-table.md,Partitioning
+./password-management.md,password-management.md,TiDB Password Management
+./pd-configuration-file.md,pd-configuration-file.md,PD Configuration File
+./pd-control.md,pd-control.md,PD Control User Guide
+./pd-microservices.md,pd-microservices.md,PD Microservices
+./pd-microservices-deployment-topology.md,pd-microservices-deployment-topology.md,PD Microservice Deployment Topology
+./pd-recover.md,pd-recover.md,PD Recover User Guide
+./performance-tuning-methods.md,performance-tuning-methods.md,Performance Analysis and Tuning
+./performance-tuning-overview.md,performance-tuning-overview.md,Performance Tuning Overview
+./performance-tuning-practices.md,performance-tuning-practices.md,Performance Tuning Practices for OLTP Scenarios
+./pessimistic-transaction.md,pessimistic-transaction.md,TiDB Pessimistic Transaction Mode
+./placement-rules-in-sql.md,placement-rules-in-sql.md,Placement Rules in SQL
+./post-installation-check.md,post-installation-check.md,Check Cluster Status
+./predicate-push-down.md,predicate-push-down.md,Predicates Push Down
+./privilege-management.md,privilege-management.md,Privilege Management
+./production-deployment-using-tiup.md,production-deployment-using-tiup.md,Deploy a TiDB Cluster Using TiUP
+./quick-start-with-htap.md,quick-start-with-htap.md,Quick Start with TiDB HTAP
+./quick-start-with-tidb.md,quick-start-with-tidb.md,Quick Start with TiDB Self-Managed
+./read-historical-data.md,read-historical-data.md,Read Historical Data Using the System Variable `tidb_snapshot`
+./replicate-between-primary-and-secondary-clusters.md,replicate-between-primary-and-secondary-clusters.md,Replicate data between primary and secondary clusters
+./replicate-data-to-kafka.md,replicate-data-to-kafka.md,Integrate Data with Apache Kafka and Apache Flink
+./role-based-access-control.md,role-based-access-control.md,Role-Based Access Control
+./runtime-filter.md,runtime-filter.md,Runtime Filter
+./scale-microservices-using-tiup.md,scale-microservices-using-tiup.md,Scale PD Microservice Nodes Using TiUP
+./scale-tidb-using-tiup.md,scale-tidb-using-tiup.md,Scale a TiDB Cluster Using TiUP
+./schedule-replicas-by-topology-labels.md,schedule-replicas-by-topology-labels.md,Schedule Replicas by Topology Labels
+./scheduling-configuration-file.md,scheduling-configuration-file.md,Scheduling Configuration File
+./schema-cache.md,schema-cache.md,Schema Cache
+./schema-object-names.md,schema-object-names.md,Schema Object Names
+./security-compatibility-with-mysql.md,security-compatibility-with-mysql.md,Security Compatibility with MySQL
+./shard-row-id-bits.md,shard-row-id-bits.md,SHARD_ROW_ID_BITS
+./smooth-upgrade-tidb.md,smooth-upgrade-tidb.md,TiDB Smooth Upgrade
+./sql-logical-optimization.md,sql-logical-optimization.md,SQL Logical Optimization
+./sql-mode.md,sql-mode.md,SQL Mode
+./sql-non-prepared-plan-cache.md,sql-non-prepared-plan-cache.md,SQL Non-Prepared Execution Plan Cache
+./sql-optimization-concepts.md,sql-optimization-concepts.md,SQL Optimization Process
+./sql-physical-optimization.md,sql-physical-optimization.md,SQL Physical Optimization
+./sql-plan-management.md,sql-plan-management.md,SQL Plan Management (SPM)
+./sql-plan-replayer.md,sql-plan-replayer.md,Use PLAN REPLAYER to Save and Restore the On-Site Information of a Cluster
+./sql-prepared-plan-cache.md,sql-prepared-plan-cache.md,SQL Prepared Execution Plan Cache
+./sql-tuning-overview.md,sql-tuning-overview.md,SQL Tuning Overview
+./stale-read.md,stale-read.md,Usage Scenarios of Stale Read
+./statement-summary-tables.md,statement-summary-tables.md,Statement Summary Tables
+./statistics.md,statistics.md,Introduction to Statistics
+./status-variables.md,status-variables.md,Server Status Variables
+./subquery-optimization.md,subquery-optimization.md,Subquery Related Optimizations
+./support.md,support.md,Support Resources
+./system-variables.md,system-variables.md,System Variables
+./system-variables-notes.md,system-variables-notes.md,System Variables Analysis Notes
+./system-variables-references.md,system-variables-references.md,System Variables References
+./table-attributes.md,table-attributes.md,Table Attributes
+./table-filter.md,table-filter.md,Table Filter
+./telemetry.md,telemetry.md,Telemetry
+./temporary-tables.md,temporary-tables.md,Temporary Tables
+./three-data-centers-in-two-cities-deployment.md,three-data-centers-in-two-cities-deployment.md,Three Availability Zones in Two Regions Deployment
+./ticdc-deployment-topology.md,ticdc-deployment-topology.md,TiCDC Deployment Topology
+./ticdc-performance-tuning-methods.md,ticdc-performance-tuning-methods.md,TiCDC Performance Analysis and Tuning Methods
+./tidb-architecture.md,tidb-architecture.md,TiDB Architecture
+./tidb-computing.md,tidb-computing.md,TiDB Computing
+./tidb-configuration-file.md,tidb-configuration-file.md,TiDB Configuration File
+./tidb-control.md,tidb-control.md,TiDB Control User Guide
+./tidb-distributed-execution-framework.md,tidb-distributed-execution-framework.md,TiDB Distributed eXecution Framework (DXF)
+./tidb-external-ts.md,tidb-external-ts.md,Read Historical Data Using the `tidb_external_ts` Variable
+./tidb-global-sort.md,tidb-global-sort.md,TiDB Global Sort
+./tidb-in-kubernetes.md,tidb-in-kubernetes.md,Deploy a TiDB Cluster on Kubernetes
+./tidb-limitations.md,tidb-limitations.md,TiDB Limitations
+./tidb-monitoring-api.md,tidb-monitoring-api.md,TiDB Monitoring API
+./tidb-monitoring-framework.md,tidb-monitoring-framework.md,TiDB Monitoring Framework Overview
+./tidb-operator-overview.md,tidb-operator-overview.md,TiDB Operator
+./tidb-performance-tuning-config.md,tidb-performance-tuning-config.md,Configure TiDB for Optimal Performance
+./tidb-read-staleness.md,tidb-read-staleness.md,Read Historical Data Using the `tidb_read_staleness` System Variable
+./tidb-resource-control.md,tidb-resource-control.md,Use Resource Control to Achieve Resource Isolation
+./tidb-roadmap.md,tidb-roadmap.md,TiDB Roadmap
+./tidb-scheduling.md,tidb-scheduling.md,TiDB Scheduling
+./tidb-storage.md,tidb-storage.md,TiDB Storage
+./tidb-troubleshooting-map.md,tidb-troubleshooting-map.md,TiDB Troubleshooting Map
+./tiflash-deployment-topology.md,tiflash-deployment-topology.md,TiFlash Deployment Topology
+./tiflash-performance-tuning-methods.md,tiflash-performance-tuning-methods.md,TiFlash Performance Analysis and Tuning Methods
+./tiflash-upgrade-guide.md,tiflash-upgrade-guide.md,TiFlash Upgrade Guide
+./tikv-configuration-file.md,tikv-configuration-file.md,TiKV Configuration File
+./tikv-control.md,tikv-control.md,TiKV Control User Guide
+./tikv-in-memory-engine.md,tikv-in-memory-engine.md,TiKV MVCC In-Memory Engine
+./tikv-overview.md,tikv-overview.md,TiKV Overview
+./time-to-live.md,time-to-live.md,Periodically Delete Data Using TTL (Time to Live)
+./tispark-deployment-topology.md,tispark-deployment-topology.md,TiSpark Deployment Topology
+./tispark-overview.md,tispark-overview.md,TiSpark User Guide
+./topn-limit-push-down.md,topn-limit-push-down.md,TopN and Limit Operator Push Down
+./transaction-isolation-levels.md,transaction-isolation-levels.md,TiDB Transaction Isolation Levels
+./transaction-overview.md,transaction-overview.md,Transactions
+./troubleshoot-cpu-issues.md,troubleshoot-cpu-issues.md,Troubleshoot Increased Read and Write Latency
+./troubleshoot-data-inconsistency-errors.md,troubleshoot-data-inconsistency-errors.md,Troubleshoot Inconsistency Between Data and Indexes
+./troubleshoot-high-disk-io.md,troubleshoot-high-disk-io.md,Troubleshoot High Disk I/O Usage in TiDB
+./troubleshoot-hot-spot-issues.md,troubleshoot-hot-spot-issues.md,Troubleshoot Hotspot Issues
+./troubleshoot-lock-conflicts.md,troubleshoot-lock-conflicts.md,Troubleshoot Lock Conflicts
+./troubleshoot-stale-read.md,troubleshoot-stale-read.md,Understanding Stale Read and safe-ts in TiKV
+./troubleshoot-tidb-cluster.md,troubleshoot-tidb-cluster.md,TiDB Cluster Troubleshooting Guide
+./troubleshoot-tidb-oom.md,troubleshoot-tidb-oom.md,Troubleshoot TiDB OOM Issues
+./troubleshoot-write-conflicts.md,troubleshoot-write-conflicts.md,Troubleshoot Write Conflicts in Optimistic Transactions
+./tso.md,tso.md,TimeStamp Oracle (TSO) in TiDB
+./tso-configuration-file.md,tso-configuration-file.md,TSO Configuration File
+./tune-operating-system.md,tune-operating-system.md,Tune Operating System Performance
+./tune-region-performance.md,tune-region-performance.md,Tune Region Performance
+./tune-tikv-memory-performance.md,tune-tikv-memory-performance.md,Tune TiKV Memory Parameter Performance
+./tune-tikv-thread-performance.md,tune-tikv-thread-performance.md,Tune TiKV Thread Pool Performance
+./two-data-centers-in-one-city-deployment.md,two-data-centers-in-one-city-deployment.md,Two Availability Zones in One Region Deployment
+./upgrade-monitoring-services.md,upgrade-monitoring-services.md,Upgrade Cluster Monitoring Services
+./upgrade-tidb-using-tiup.md,upgrade-tidb-using-tiup.md,Upgrade TiDB Using TiUP
+./user-account-management.md,user-account-management.md,TiDB User Account Management
+./user-defined-variables.md,user-defined-variables.md,User-Defined Variables
+./vector-search-data-types.md,vector-search-data-types.md,Vector Data Types
+./vector-search-functions-and-operators.md,vector-search-functions-and-operators.md,Vector Functions and Operators
+./vector-search-get-started-using-python.md,vector-search-get-started-using-python.md,Get Started with TiDB + AI via Python
+./vector-search-get-started-using-sql.md,vector-search-get-started-using-sql.md,Get Started with Vector Search via SQL
+./vector-search-improve-performance.md,vector-search-improve-performance.md,Improve Vector Search Performance
+./vector-search-index.md,vector-search-index.md,Vector Search Index
+./vector-search-integrate-with-django-orm.md,vector-search-integrate-with-django-orm.md,Integrate TiDB Vector Search with Django ORM
+./vector-search-integrate-with-jinaai-embedding.md,vector-search-integrate-with-jinaai-embedding.md,Integrate TiDB Vector Search with Jina AI Embeddings API
+./vector-search-integrate-with-langchain.md,vector-search-integrate-with-langchain.md,Integrate Vector Search with LangChain
+./vector-search-integrate-with-llamaindex.md,vector-search-integrate-with-llamaindex.md,Integrate Vector Search with LlamaIndex
+./vector-search-integrate-with-peewee.md,vector-search-integrate-with-peewee.md,Integrate TiDB Vector Search with peewee
+./vector-search-integrate-with-sqlalchemy.md,vector-search-integrate-with-sqlalchemy.md,Integrate TiDB Vector Search with SQLAlchemy
+./vector-search-integration-overview.md,vector-search-integration-overview.md,Vector Search Integration Overview
+./vector-search-limitations.md,vector-search-limitations.md,Vector Search Limitations
+./vector-search-overview.md,vector-search-overview.md,Vector Search Overview
+./views.md,views.md,Views
+./wrong-index-solution.md,wrong-index-solution.md,Wrong Index Solution
